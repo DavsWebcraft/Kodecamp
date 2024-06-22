@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Lobster Two, Georgia, "Times New Roman", Times, serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  color: #0073e6 !important;
+}
+
+h1 h3 p {
+  margin-bottom: 15px;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.signature {
+  text-align: right;
+  margin-top: 30px;
+  font-size: 20px;
+  font-size: italic;
+}

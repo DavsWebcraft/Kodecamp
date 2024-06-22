@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.form_housing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.signup-container {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    width: 582px;
+    height: 620px;
+    top: 27px;
+    left: 37px;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    margin-bottom: 5px;
+    margin-left: 700px;
+    margin-top: 8px;
+}
+
+h2 {
+    text-align: start;
+    color: #0D99FF;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-group {
+    margin: 15px;
+    flex: 1;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+.radio-group label {
+    margin-right: 10px;
+}
+
+button {
+    width: fit-content;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    background-color: #0000EE;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 600px;
+
+}
+
+button:hover {
+    background-color: #155a8a;
+}
+
+.sign_up {
+    width: 487px;
+    height: 620px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+    <div class="form_housing">
+        <div class="signup-container">
+
+            <img src="https://i.ibb.co/Tc8bcYn/sign-up.jpg" alt="logo" class="logo">
+        
+            <h2>Sign Up</h2>
+            <form>
+                <div class="row-container">
+                    <div class="form-group">
+                        <label for="first-name"><b>First Name</b></label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name"><b>Last Name</b></label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                </div>
+                <div class="row-container">
+                    <div class="form-group">
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender"><b>Gender</b></label>
+                        <div class="radio-group">
+                            <input type="radio" id="male" name="gender" value="male" checked>
+                            <label for="male"><b>Male</b></label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female"><b>Female</b></label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other"><b>Other</b></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-container">
+                    <div class="form-group">
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password"><b>Confirm Password</b></label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                </div>
+                <div class="row-container">
+    
+                    <div class="form-group">
+                        <label for="education-level"><b>Educational Level</b></label>
+                        <select id="education-level" name="education-level" required>
+                            <option value=""></option>
+                            <option value="highschool">Undergraduate</option>
+                            <option value="bachelors">B.Sc</option>
+                            <option value="masters">M.Sc</option>
+                            <option value="phd">Ph.D</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience-level"><b>Experience Level</b></label>
+                        <select id="experience-level" name="experience-level" required>
+                            <option value=""></option>
+                            <option value="entry">Beginner</option>
+                            <option value="mid">Intermediate</option>
+                            <option value="senior">Expert</option>
+                            <option value="senior">Professional</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="about-you"><b>Tell us about you</b></label>
+                    <textarea id="about-you" name="about-you" rows="2"></textarea>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    
+        <div>
+            <img src="https://i.ibb.co/dWmHs98/Screenshot-20240605-194633549-3.png" alt="Screenshot-20240605-194633549-3" alt="sign_up image" class="sign_up">
+        </div>
+    </div>
+    
+</body>
+</html>
